@@ -11,7 +11,7 @@ namespace ElChicoDeLasListasPorConsola
             int opcion = 1;
             while (opcion == 1)
             {
-                Console.WriteLine("Ingrese:\n(1)nombre\n(2)precio\n(3)cantidad\nde producto comprado en ese orden, al finalizar cada uno, presione enter.\n");
+                Console.WriteLine("Ingrese: (1)nombre  (2)precio  (3)cantidad  de producto comprado en ese orden, al finalizar cada uno, presione enter.\n");
                 listado.Add(new Productos()
                 {
                     _Nombre = Console.ReadLine(),
